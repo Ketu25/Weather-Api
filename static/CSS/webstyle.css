@@ -1,0 +1,104 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #8fd3d5 !important;
+    }
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: 50px;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 150px;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color: #8fd3d5;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+    background: white;
+    color: #8fd3d5;
+}
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+}
+h2{
+    text-align: center;
+}
+
+.navdesign{
+    margin: 16px;
+}
+
+.navbar-custom {
+    background-color: lightgreen;
+}
+.navbar-txt{
+    color: #8fd3d5;
+
+}
+.nav_image{
+    height: 60px;
+    margin: 2px 24px 2px 20px;
+}
+
+.card{
+    border-radius: 28px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 27px;
+    width: 18rem;
+    height: 350px;
+    border: solid;
+    
+}
+.card-subtitle{
+    margin-top: 100px;
+    color: #8fd3d5;
+}
+
+.card-text{
+    margin-top: 90px;
+    color: #353b48;
+}
+.text-muted{
+    color: #8fd3d5;
+}
+
+.weather_img{
+    height: 50px;
+}
+.temp_img{
+    height: 30px;
+    margin-right: 5px;
+}
+.city_img{
+    height: 30px;
+}
